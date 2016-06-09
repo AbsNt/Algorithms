@@ -1,11 +1,11 @@
 var
 	a: string;
-	i: integer;
+	i, f: integer;
 begin
 	writeln('Enter string');
 	readln(a);
-	for i:=1 to length(a) div 2 do
-		if s[i] <> s[length(s)-i+1] then 
+	for i:= 1 to (length(a) div 2) do
+		if a[i] <> a[length(a)-i+1] then 
 			begin
 				writeln('No palindrome');
 				f := 1;
