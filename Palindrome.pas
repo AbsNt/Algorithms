@@ -1,6 +1,6 @@
 var
 	a: string;
-	i: integer;
+	i, f: integer;
 begin
 	writeln('Enter string');
 	readln(a);
