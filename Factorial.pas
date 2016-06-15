@@ -1,8 +1,8 @@
 function fac(n:integer):longint;
 begin
-  if z=0 then fac:=1
+  if i=0 then fac:=1
   else
-  fac:=z*fac(z-1);
+  fac:=i*fac(i-1);
 end;
  
 var k:integer;
